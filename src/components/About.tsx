@@ -10,7 +10,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative"
+            className="relative order-2 lg:order-1"
           >
             <div className="aspect-[4/5] overflow-hidden rounded-2xl">
               <img
@@ -32,6 +32,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
+            className="order-1 lg:order-2"
           >
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-wood-900 mb-6">
               Nuestra Esencia
