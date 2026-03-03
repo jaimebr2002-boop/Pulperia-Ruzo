@@ -8,15 +8,12 @@ export default function Hero() {
       className="relative h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Image */}
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage:
-            'url("https://res.cloudinary.com/dfbsqy5ul/image/upload/v1772530942/Captura_de_pantalla_2026-03-03_104206_vk5htz.jpg")',
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      >
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://res.cloudinary.com/dfbsqy5ul/image/upload/v1772530942/Captura_de_pantalla_2026-03-03_104206_vk5htz.jpg"
+          alt="Fondo Pulpería Ruzo"
+          className="w-full h-full object-cover object-[75%_center] md:object-center"
+        />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
@@ -32,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-200 mb-10 font-light tracking-wide max-w-2xl mx-auto">
-            Tradición gallega en el corazón de O Carballiño
+            Tradición gallega en el corazón de <span className="whitespace-nowrap">O Carballiño</span>
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
