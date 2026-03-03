@@ -12,7 +12,7 @@ export default function Hero() {
         className="absolute inset-0 z-0"
         style={{
           backgroundImage:
-            'url("https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&q=80&w=1920")',
+            'url("https://res.cloudinary.com/dfbsqy5ul/image/upload/v1772530942/Captura_de_pantalla_2026-03-03_104206_vk5htz.jpg")',
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
